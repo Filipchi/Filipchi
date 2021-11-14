@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+      content="Physical Engineer, here you will find information about the projects I have done." />
+    <meta property="og:description"
+      content="Physical Engineer, here you will find information about the projects I have done. " />
+    <meta property="og:title" content="Jhon Fredy Ospina | Physical Engineer" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Jhon Fredy Ospina | Physical Engineer" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="apple-touch-icon" href="./assets/logo.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/logo-120x120.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/logo-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/logo-16x16.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="media.css" media="(max-width: 991px)" />
+    <script src="https://kit.fontawesome.com/7b5fb2de65.js" crossorigin="anonymous" async></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Jhon Fredy Ospina / Physical Engineer</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <p class="navbar__title">
+            <a href="#">JF</a>
+          </p>
+        </div>
+        <div class="navbar__menu">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active" data-ref="home">
+            <a href="#home">Home</a>
+          </li>
+          <li class="navbar__link" data-ref="about">
+            <a href="#about">About</a>
+          </li>
+          <li class="navbar__link" data-ref="portfolio">
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li class="navbar__link" data-ref="hobbies">
+            <a href="#hobbies">Hobbies</a>
+          </li>
+          <li class="navbar__link" data-ref="contact">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section id="home" class="home">
+      <div class="home__background"></div>
+      <picture>
+        <source type="image/webp" srcset="./assets/profile.webp" />
+        <source type="image/jpeg" srcset="./assets/profile.jpg" />
+        <img class="home__profile" alt="picture profile" />
+      </picture>
+      <div class="home__description">
+        <span class="home__title--primary">Hi!</span>
+        <h1 class="home__title">I'm Jhon Fredy Ospina</h1>
+        <span class="home__title--secondary">Physical Engineer</span>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2 class="section__title">About</h2>
+        <div class="about__grid">
+          <div class="about__description">
+            <h2>Who am I?</h2>
+            <h2>I'm Jhon Fredy Ospina, Physical Engineer.</h2>
+            <p>
+              I am a person with a strong desire to learn and explore the different tools that programming offers. In
+              addition, in my training as a physical engineer, I consider myself like a person with outstanding
+              analytical skills.
+            </p>
+
+            <p>
+              I am currently in search of my first job in which I can put into practice the knowledge I have acquired.
+            </p>
+            <a class="button--cta" href="./assets/CV_JhonFredyOspina.pdf" download="CV_JhonFredyOspina" target="_blank"
+              rel="noopener noreferrer">
+              <i class="fas fa-file-download"></i>Download CV
+            </a>
+          </div>
+          <div class="about__skills">
+            <div class="skill__title">
+              <h2>My skills:</h2>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-html5"></i>
+              <div class="skill__name">Html</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-css3-alt"></i>
+              <div class="skill__name">Css</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-js"></i>
+              <div class="skill__name">JavaScript</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-python"></i>
+              <div class="skill__name">Python</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-java"></i>
+              <div class="skill__name">Java</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-vuejs"></i>
+              <div class="skill__name">Vue</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-git-alt"></i>
+              <div class="skill__name">Git</div>
+            </div>
+            <div class="skill__item">
+              <i class="fab fa-bootstrap"></i>
+              <div class="skill__name">Bootstrap</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="title1">
+      <div class="container">
+        <h2 class="section__title">Portfolio</h2>
+        <h3 class="section__subtitle">Here you can see the projects I have worked on.</h3>
+        <br><br><br><br><br>
+        <div class="portfolio__grid">
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./assets/projects/adivina-el-numero.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Game: Adivina el Número</h3>
+              <p class="portfolio__description--text">
+                Tools: HTML, CSS, JS, Boostrap
+              </p>
+              <div class="buttons__container">
+                <a class="button" href="https://filipchi.github.io/AdivinarNumero/" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a class="button" href="https://github.com/Filipchi/AdivinarNumero" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./assets/projects/mrempanada.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">Mr. Empanada</h3>
+              <p class="portfolio__description--text">
+                Web Application: JS, CSS, HTML, Vue.js, BootstrapVue, Vuetify, MongoBD, Heroku
+              </p>
+              <div class="buttons__container">
+                <a class="button" href="https://mrempanada2.herokuapp.com/" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a class="button" href="https://github.com/Grupo1postventas/MrEmpanada-MEVN" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./assets/projects" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h3 class="portfolio__description--title">OOP</h3>
+              <p class="portfolio__description--text">OOP Practice: Java</p>
+              <div class="buttons__container">
+                <a class="button" href="" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="fas fa-globe-americas"></i> Website
+                </a>
+                <a class="button" href="" target="_blank"
+                  rel="noopener noreferrer">
+                  <i class="fab fa-github"></i> Repository
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hobbies" class="title1">
+      <div class="container">
+        <h2 class="section__title">Hobbies</h2>
+        <h3 class="section__subtitle">Here you can see the activities that I like to do from time to time:</h3>
+        <br><br><br><br><br>
+        <div class="portfolio__grid">
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./assets/hobbies/chess.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h2 class="portfolio__description--title">Play Chess<br><br></h2>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./assets/hobbies/music.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h2 class="portfolio__description--title">Music<br><br></h2>
+            </div>
+          </div>
+          <div class="portfolio__item">
+            <picture>
+              <source type="image/jpeg" srcset="./assets/hobbies/birds.png" />
+              <img class="portfolio__img" alt="portfolio item" />
+            </picture>
+            <div class="portfolio__description">
+              <h2 class="portfolio__description--title">Bird Watching<br><br></h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div id="contact">
+        <div class="container">
+          <h2 class="section__title">Contact</h2>
+          <h3 class="section__subtitle">
+            Contact me if you want us to work together.
+          </h3>
+          <div class="contact__grid">
+  
+            <a href="mailto:fredyospina119@gmail.com" target="_blank" >
+              <div class="contact__item">
+                <i class="far fa-envelope"></i>
+              </div>
+            </a>
+  
+            <a href="https://github.com/filipchi" target="_blank">
+              <div class="contact__item">
+                <i class="fab fa-github"></i>
+              </div>
+            </a>
+  
+            <a href="https://gitlab.com/Filipchi" target="_blank" rel="noopener noreferrer">
+              <div class="contact__item">
+                <i class="fab fa-gitlab"></i>
+              </div>
+            </a>
+  
+            <a href="https://www.linkedin.com/in/jf-ospina/" target="_blank" rel="noopener noreferrer">
+              <div class="contact__item">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      <div class="container">
+        <h4>
+          Copyright © 2021. <a href="#">@jf-ospina</a> <br />
+          All Rights Reserved
+        </h4>
+      </div>
+    </footer>
+    <script async src="./index.js"></script>
+  </body>
+
+</html>
