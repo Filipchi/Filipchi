@@ -1,7 +1,4 @@
 @media (max-width: 991px) {
-
-
-
   .navbar__menu {
     display: flex;
   }
@@ -96,7 +93,6 @@
     margin-bottom: 5px;
   }
 
-  .services__grid,
   .portfolio__grid {
     grid-template-columns: 1fr 1fr;
     gap: 20px;
@@ -143,8 +139,7 @@
     min-width: 75px;
     height: 85px;
   }
-
-  .services__grid,
+  
   .portfolio__grid {
     grid-template-columns: 1fr;
     gap: 20px;
