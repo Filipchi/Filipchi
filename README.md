@@ -5,7 +5,7 @@
 
 - 👯 I’m looking to collaborate on **front-end projects**
 
-- 📫 How to reach me: **contact@ppjcode.com**
+- 📫 How to reach me: **jf.osgal@gmail.com**
 
 - ⚡ What I like to do: **I like so much play chess, birding, music, movies, videogames and learn about programming**
 
